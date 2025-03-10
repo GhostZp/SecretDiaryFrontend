@@ -1,4 +1,5 @@
 import "../css/historystyle.css";
+import Book from "/src/img/Book.png";
 
 const getEntries = async () => {
   const url = "http://localhost:3000/api/entries";
@@ -44,7 +45,7 @@ const getEntries = async () => {
     childLeftDiv.classList.add("child-left");
 
     const img = document.createElement("img");
-    img.src = "/src/img/Book.jpg";
+    img.src = Book;
     img.classList.add("Book1");
     img.alt = "ABook";
 
@@ -117,7 +118,7 @@ const getHabits = async () => {
     childLeftDiv.classList.add("child-left2");
 
     const img = document.createElement("img");
-    img.src = "/src/img/Book.jpg"; // Example image
+    img.src = Book;
     img.classList.add("Book2");
     img.alt = "ABook";
 
