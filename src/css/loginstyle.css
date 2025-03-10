@@ -1,0 +1,162 @@
+:root {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: #fff9c2;
+}
+
+/* main */
+
+.vine1 {
+  width: 35%;
+  position: absolute;
+  left: 0;
+}
+
+.vine2 {
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #ffa791;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  color: #ffa791;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #ffa791;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ffa791;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* form */
+
+input[type="text"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type="password"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type="email"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: #ffa791;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+input[type="submit"]:hover {
+  background-color: #fde7b1;
+  color: #ffa791;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffa791;
+  font-size: 18px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffa791;
+  font-size: 18px;
+}
+
+/* footer */
+
+.foot_container {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #fde7b1;
+}
+
+.t4 {
+  text-align: center;
+  color: #ffa791;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .vine1 {
+    display: none;
+  }
+  .vine2 {
+    display: none;
+  }
+}
